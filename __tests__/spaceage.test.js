@@ -4,16 +4,11 @@ describe('Spaceage', () => {
 
     test("should correctly create a spaceage object with an age property", () => {
         const spaceage = new Spaceage(32);
-        expect(spaceage.age).toEqual(32);
+        expect(spaceage.earthAge).toEqual(32);
     });
 
-
-
-
-
-
-    // test("should calculate age in earth years while on planet mercury", () => {
-    //     const spaceage = new Spaceage(32);
-    //     expect(spaceage.mercuryAgeCalc()).toEqual(133.3)
-    // });
+    test("should calculate age in earth years while on planet mercury", () => {
+        const spaceage = new Spaceage(32);
+        expect(spaceage.mercuryAgeCalc()).toEqual(133.3)
+    });
 });
