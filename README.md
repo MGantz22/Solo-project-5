@@ -1,10 +1,10 @@
-# _JavaScript Template_
+# _Solo-project-5_
 
 ## EDIT BEFORE COMMITING
 
-#### By _Ashe Urban & Vera Weikel_
+#### By _Mitchell Gantz_
 
-#### _This project is serving as a template respository for future work_
+#### _This project is solo-project-5_
 
 ## Technologies Used
 
@@ -21,7 +21,7 @@
 
 _This project template was built off of Epicodus' lessons on TDD and js environments_
 
-_As such, there are tests and js files for a triangle and rectangle constructor, these should be updated per project._
+_As such, there are tests and js files for  constructor,_
 
 _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/basic-project-structure
 
@@ -44,4 +44,4 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/test-
 
 _MIT_
 
-Copyright (c) _2023_ _Ashe Urban_ _Vera Weikel_
+Copyright (c) _2023_ _Mitchell Gantz_
