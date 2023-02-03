@@ -9,6 +9,6 @@ describe('Spaceage', () => {
 
     test("should calculate age in earth years while on planet mercury", () => {
         const spaceage = new Spaceage(32, 32);
-        expect(spaceage.mercuryAgeCalc()).toEqual(133.33333333333334)
+        expect(spaceage.mercuryAgeCalc()).toEqual(133.33.toFixed(2));
     });
 });
