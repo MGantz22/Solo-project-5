@@ -23,7 +23,7 @@ export default class Spaceage {
 }
 
     jupiterAgeCalc() {
-//     let jupiterAge = this.earthAge / 12;
-//     return jupiterAge.toFixed(2);
+        let jupiterAge = this.earthAge / 12;
+        return jupiterAge.toFixed(2);
 }
 };

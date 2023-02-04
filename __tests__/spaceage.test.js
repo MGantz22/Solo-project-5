@@ -24,6 +24,6 @@ describe('Spaceage', () => {
 
     test("should calculate age in earth years while on planet jupiter", () => {
         const spaceage = new Spaceage(32, 32, 32, 32, 32);
-        expect(spaceage.jupiterAgeCalc()).toEqual(18.82.toFixed(2));
+        expect(spaceage.jupiterAgeCalc()).toEqual(2.67.toFixed(2));
     });
 });
