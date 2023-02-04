@@ -16,4 +16,9 @@ describe('Spaceage', () => {
         const spaceage = new Spaceage(32, 32, 32);
         expect(spaceage.venusAgeCalc()).toEqual(52.03.toFixed(2));
     });
+
+    test("should calculate age in earth years while on planet mars", () => {
+        const spaceage = new Spaceage(32, 32, 32, 32);
+        expect(spaceage.marsAgeCalc()).toEqual(17.02.toFixed(2));
+    });
 });
