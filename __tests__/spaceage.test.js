@@ -1,16 +1,19 @@
-import Spaceage from '../src/js/spaceage.js';
+import SpaceAge from '../src/js/spaceage.js';
 
-describe('Spaceage', () => {
-
-    test("should correctly create a spaceage object with an age property", () => {
-        const nowAge = new Spaceage(32);
-        expect(nowAge.nowAge).toEqual(32);
+describe("SpaceAge", () => {
+    let spaceAge;
+    beforeEach(() => {
+        spaceAge = new SpaceAge(32);
     });
 
-    // test("should calculate age in earth years while on planet mercury", () => {
-    //     const spaceage = new Spaceage(32, 32);
-    //     expect(spaceage.mercuryAgeCalc()).toEqual(133.33.toFixed(2));
-    // });
+    test("should correctly output current age on earth", () => {
+        expect(spaceAge.presentAge).toEqual(32);
+    });
+
+    test("should calculate age in earth years while on planet mercury", () => {
+        spaceAge.mercuryAge();
+        expect(spaceAge.mercuryAge).toEqual(133.33.toFixed(2));
+    });
 
     // test("should calculate age in earth years while on planet venus", () => {
     //     const spaceage = new Spaceage(32, 32, 32);
