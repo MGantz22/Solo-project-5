@@ -7,9 +7,9 @@ describe("SpaceAge", () => {
     });
 
     test("should correctly output current age on earth", () => {
-        expect(spaceAge.pastAge).toEqual(2); //refactoring
+        //expect(spaceAge.pastAge).toEqual(2); //refactoring
         //expect(spaceAge.presentAge).toEqual(32);
-        //expect(spaceAge.futureAge).toEqual(44); //refactoring
+        expect(spaceAge.futureAge).toEqual(44); //refactoring
     });
 
     //test("should calculate present age If you were on planet mercury", () => {
