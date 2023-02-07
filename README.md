@@ -19,9 +19,9 @@
 
 ## Description
 
-_This project that calculates age based on what selected planet. was built off of Epicodus' lessons on TDD and js environments_
+_This project that calculates age based on what selected planet.This project was built off of Epicodus' lessons on TDD and js environments_
 
-_As such, there are tests and js files for  constructor,_
+_As such, there are tests and js files for spaceAge constructor past present and futur_
 
 _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/basic-project-structure
 
