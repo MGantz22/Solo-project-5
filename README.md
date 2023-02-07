@@ -4,7 +4,7 @@
 
 #### By _Mitchell Gantz_
 
-#### _This project is solo-project-5_
+#### _This project is Solo-project-5_
 
 ## Technologies Used
 
@@ -19,7 +19,7 @@
 
 ## Description
 
-_This project template was built off of Epicodus' lessons on TDD and js environments_
+_This project that calculates age based on what selected planet. was built off of Epicodus' lessons on TDD and js environments_
 
 _As such, there are tests and js files for  constructor,_
 

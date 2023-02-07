@@ -1,30 +1,23 @@
 export default class SpaceAge {
-    constructor(presentAge,  pastAge, futureAge) {
+    constructor(pastAge, presentAge, futureAge) {
+        this.pastAge = pastAge;
         this.presentAge = presentAge;
-        // this.mercuryAge = mercuryAge;
-        // this.venusAge = venusAge;
-        // this.marsAge = marsAge;
-        // this.jupiterAge = jupiterAge;
+        this.futureAge = futureAge;    
 }
 
-    mercuryAge() {
-        let mercuryAge = this.mercuryAge / .24;
-        return mercuryAge.toFixed(2);
-    
-}
-
-//     venusAgeCalc() {
-//         let venusAge = this.nowAge / .615;
-//         return venusAge.toFixed(2);
+// mercury() {
+//     this.presentAge = Math.round(this.presentAge / 0.24);
 // }
 
-//     marsAgeCalc() {
-//         let marsAge = this.nowAge / 1.88;
-//         return marsAge.toFixed(2);
+// venus() {
+//     this.presentAge = Math.round(this.presentAge / 0.62);
 // }
 
-//     jupiterAgeCalc() {
-//         let jupiterAge = this.nowAge / 12;
-//         return jupiterAge.toFixed(2);
+// mars() {
+//     this.presentAge = Math.round(this.presentAge / 1.88);
+// }
+
+// jupiter() {
+//     this.presentAge = Math.round(this.presentAge / 0.24);
 // }
 };
