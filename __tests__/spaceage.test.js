@@ -19,12 +19,11 @@ describe("SpaceAge", () => {
         expect(presentAge.venusAge).toEqual(52);   
     });
 
-    // test("should calculate age while on planet mars", () => {
-    //     spaceAge.mars();
-    //     expect(spaceAge.pastAge).toEqual(1); //refactor
-    //     //expect(spaceAge.presentAge).toEqual(17);
-    // //     expect(spaceAge.futureAge).toEqual(23); //refactor
-    // }); 
+    test("should calculate age while on planet mars", () => {
+        const presentAge = new SpaceAge(32);
+        presentAge.marsAge();
+        expect(presentAge.marsAge).toEqual(17);
+    }); 
 
     // test("should calculate age while on planet jupiter", () => {
     //     spaceAge.jupiter();
