@@ -5,10 +5,10 @@ export default class SpaceAge {
         this.futureAge = futureAge;
 }
 
-// mercuryAge() {
-//     let mercuryAge = this.presentAge / .24;
-//     this.mercuryAge = Math.round(mercuryAge);
-// }
+mercuryAge() {
+    let mercuryAge = this.presentAge / .24;
+    this.mercuryAge = Math.round(mercuryAge);
+}
 
 // venuAge() {
 //     let venusAge = this.presentAge / .62;

@@ -4,14 +4,14 @@ describe("SpaceAge", () => {
 
     test("should correctly output  prestent age on earth", () => {
         const presentAge = new SpaceAge(32);
-        expect(presentAge.presentAge).toEqual(32)     
+        expect(presentAge.presentAge).toEqual(32);     
     });
-    // test("should calculate age If you were on planet mercury", () => {
-    //     spaceAge.mercury();
-    //     expect(spaceAge.pastAge).toEqual(8); //refactor
-    //     //expect(spaceAge.presentAge).toEqual(133);
-    //     //expect(spaceAge.futureAge).toEqual(183); //refactor
-    // });
+
+        test("should calculate age If you were on planet mercury", () => {
+        const presentAge = new SpaceAge(32);
+        presentAge.mercuryAge();
+        expect(presentAge.mercuryAge).toEqual(133);
+    });
 
     // test("should calculate age while on planet venus", () => {
     //     spaceAge.venus();
