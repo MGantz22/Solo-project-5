@@ -34,7 +34,7 @@ describe("SpaceAge", () => {
     test("Should calculate how many years have pasted since last entered birthday", () => {
         const presentAge = new SpaceAge(32,12);
         presentAge.yearsSince();
-        expect(presentAge.yearsSince(32,12)).toBe(20)
+        expect(presentAge.yearsSince(32,12)).toBe("20,83.33,")
     });
 
 });
