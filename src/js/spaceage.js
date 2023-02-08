@@ -21,10 +21,10 @@ jupiter() {
     this.presentAge = Math.round(this.presentAge / 11.86);
 }
 
-//yearsUntilBday() {
+//yearsUntil() {
     //??? TBD 
 //}
-//yearsSinceBday() {
+//yearsSince() {
     //??? TDB
 //}
 };
