@@ -34,7 +34,13 @@ describe("SpaceAge", () => {
     test("Should calculate how many years have pasted since last entered birthday", () => {
         const presentAge = new SpaceAge(32,12);
         presentAge.yearsSince();
-        expect(presentAge.yearsSince(32,12)).toBe("20,83.33,32.26,10.64,1.69,")
+        expect(presentAge.yearsSince(32,12)).toBe("20 Earth years, 83.33 Mercury years, 32.26 Venus years, 10.64 Mars years, 1.69 Jupiter years.")
+    });
+
+    test("Should calculate how many years have yet to pass since last entered birthday", () => {
+        const presentAge = new SpaceAge(32,42);
+        presentAge.yearsUntil();
+        expect(presentAge.yearsUntil(32,42)).toBe("10 Earth years, 41.67 Mercury years, 16.13 Venus years, 5.32 Mars years, 0.84 Jupiter years.")
     });
 
 });

@@ -27,11 +27,21 @@ jupiterAge() {
 
 yearsSince(presentAge, pastAge) {
     let difference = presentAge - pastAge;
-    let earthDifference = (Math.round(difference) + ",");
-    let mercDifference = ((difference / .24).toFixed(2) + ",");
-    let venuDifference = ((difference / .62).toFixed(2) + ",");
-    let marsDifference = ((difference / 1.88).toFixed(2) + ",");
-    let jupDifference = ((difference / 11.86).toFixed(2) + ",");
+    let earthDifference = (Math.round(difference) + " Earth years, ");
+    let mercDifference = ((difference / .24).toFixed(2) + " Mercury years, ");
+    let venuDifference = ((difference / .62).toFixed(2) + " Venus years, ");
+    let marsDifference = ((difference / 1.88).toFixed(2) + " Mars years, ");
+    let jupDifference = ((difference / 11.86).toFixed(2) + " Jupiter years.");
+    return earthDifference + mercDifference + venuDifference + marsDifference + jupDifference;
+}
+
+yearsUntil(presentAge, futureAge) {
+    let difference = futureAge - presentAge;
+    let earthDifference = (Math.round(difference) + " Earth years, ");
+    let mercDifference = ((difference / .24).toFixed(2) + " Mercury years, ");
+    let venuDifference = ((difference / .62).toFixed(2) + " Venus years, ");
+    let marsDifference = ((difference / 1.88).toFixed(2) + " Mars years, ");
+    let jupDifference = ((difference / 11.86).toFixed(2) + " Jupiter years.");
     return earthDifference + mercDifference + venuDifference + marsDifference + jupDifference;
 }
 };
