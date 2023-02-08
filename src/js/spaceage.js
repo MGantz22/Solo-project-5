@@ -20,10 +20,10 @@ marsAge() {
     this.marsAge = Math.round(marsAge);
 }
 
-// jupiterAge() {
-//     let jupiterAge = this.presentAge / 11.86;
-//     this.jupiterAge = Math.round(jupiterAge);
-// }
+jupiterAge() {
+    let jupiterAge = this.presentAge / 11.86;
+    this.jupiterAge = Math.round(jupiterAge);
+}
 
 //yearsUntil() {
     //??? TBD 
