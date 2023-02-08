@@ -28,7 +28,9 @@ jupiterAge() {
 yearsSince(presentAge, pastAge) {
     let difference = presentAge - pastAge;
     let earthDifference = (Math.round(difference) + ",");
-    let mercdifference = ((difference / .24).toFixed(2) + ",");
-    return earthDifference + mercdifference;
+    let mercDifference = ((difference / .24).toFixed(2) + ",");
+    let venuDifference = ((difference / .62).toFixed(2) + ",");
+    let marsDifference = ((difference / 1.88).toFixed(2) + ",");
+    return earthDifference + mercDifference + venuDifference + marsDifference;
 }
 };
