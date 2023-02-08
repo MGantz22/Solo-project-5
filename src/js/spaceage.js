@@ -31,6 +31,7 @@ yearsSince(presentAge, pastAge) {
     let mercDifference = ((difference / .24).toFixed(2) + ",");
     let venuDifference = ((difference / .62).toFixed(2) + ",");
     let marsDifference = ((difference / 1.88).toFixed(2) + ",");
-    return earthDifference + mercDifference + venuDifference + marsDifference;
+    let jupDifference = ((difference / 11.86).toFixed(2) + ",");
+    return earthDifference + mercDifference + venuDifference + marsDifference + jupDifference;
 }
 };
