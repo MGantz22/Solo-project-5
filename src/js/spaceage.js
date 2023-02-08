@@ -10,10 +10,10 @@ mercuryAge() {
     this.mercuryAge = Math.round(mercuryAge);
 }
 
-// venuAge() {
-//     let venusAge = this.presentAge / .62;
-//     this.venusAge = Math.round(venusAge);
-// }
+venusAge() {
+    let venusAge = this.presentAge / .62;
+    this.venusAge = Math.round(venusAge);
+}
 
 // marsAge() {
 //     let marsAge = this.presentAge / 1.88;
