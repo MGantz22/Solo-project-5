@@ -25,10 +25,10 @@ jupiterAge() {
     this.jupiterAge = Math.round(jupiterAge);
 }
 
-//yearsUntil() {
-    //??? TBD 
-//}
-//yearsSince() {
-    //??? TDB
-//}
+yearsSince(presentAge, pastAge) {
+    let difference = presentAge - pastAge;
+    let earthDifference = (Math.round(difference).toFixed(2));
+    return parseInt(earthDifference);
+
+}
 };
